@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif; */
 }
 body {
   overflow-x: hidden;
+  padding-top: 70px;
 }
 html {
   overflow-x: hidden;
@@ -847,6 +848,10 @@ footer .nav__box:hover {
   .exposition .container {
     padding: 20px 0;
   }
+  .exposition .ex__wrapper .ex__wrapper--button {
+    background: #616057;
+    color: #f1ebdd;
+  }
 }
 @media screen and (max-width: 425.1px) {
   .courses .courses__wrapp .courses__wrapp--box {
@@ -884,18 +889,19 @@ footer .nav__box:hover {
   #contact .contact__info .contact__information {
     display: none;
   }
-}
-@media screen and (max-width: 380.1px) {
-  #contact .contact__info {
-    width: 70%;
-  }
   #contact .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  #contact .contact__info {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 900.1px) {
+  #tariff {
+    padding: 0;
+  }
   #tariff .tariff__content {
     display: flex;
     flex-direction: column;
@@ -903,6 +909,9 @@ footer .nav__box:hover {
   }
   #tariff .container .tariff__img {
     margin-bottom: 20px;
+  }
+  #tariff .tariff__button {
+    align-self: center;
   }
 }
 @media screen and (max-width: 680.1px) {
