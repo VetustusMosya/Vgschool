@@ -39,6 +39,12 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
+header .header__logo {
+  z-index: 10;
+}
+header .header__logo--net {
+  opacity: 0;
+}
 header .header__logo a img {
   max-width: 120px;
 }
@@ -972,12 +978,9 @@ footer .nav__box:hover {
 }
 
 .nav nav li a {
-  color: #333;
+  color: #6a5441;
   font-size: 40px;
   text-decoration: none;
-}
-
-.nav nav li a:hover {
   font-weight: bold;
 }
 
@@ -993,7 +996,6 @@ footer .nav__box:hover {
 }
 
 .menu-bg {
-  z-index: 1;
   width: 0;
   height: 0;
   margin: 50px 0 40px 40px;
