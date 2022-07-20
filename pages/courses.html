@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Курсы</title>
+    <link rel="shortcut icon" href="../img/logo/6лого вика пнг.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__logo">
+          <a href="#main"><img src="../img/logo/1лого.png" alt="VG School" /></a>
+        </div>
+        <div class="header__links">
+          <nav>
+            <ul>
+              <li><a href="#main">Главная</a></li>
+              <li class="dropdown">
+                <a href="../pages/courses.html">Курсы <img src="../img/angle-down-solid.svg" alt=""/></a>
+                <div class="dropdown-content">
+                  <ul>
+                    <li><a href="../pages/sugaring.html">Маникюр</a></li>
+                    <li><a href="../pages/sugaring.html">Browmaster</a></li>
+                    <li><a href="../pages/sugaring.html">Ламинирование</a></li>
+                    <li><a href="../pages/sugaring.html">Шугаринг</a></li>
+                    <li><a href="../pages/sugaring.html">Резерв</a></li>
+                    <li><a href="../pages/sugaring.html">Резерв</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="../pages/about.html">О школе</a></li>
+              <li><a href="../pages/contact.html">Контакты</a></li>
+            </ul>
+            <div id="menu" class="menu">
+              <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+              </div>
+              <nav class="nav" id="nav">
+                <nav>
+                  <li><a href="#main">Главная</a></li>
+                  <li><a href="../pages/courses.html">Курсы</a></li>
+                  <li><a href="../pages/about.html">О школе</a></li>
+                  <li><a href="../pages/contact.html">Контакты</a></li>
+                </т>
+              </nav>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main" id="about">
+      <div class="container">
+        <div class="container__position">
+          <h1 class="main__title">VG BEAUTY SCHOOL</h1>
+        </div>
+      </div>
+    </section>
+    <section id="courses" class="courses__page">
+      <div class="container">
+        <div class="courses__left courses__box">
+          <h1 class="courses__title">Для кого наши курсы</h1>
+          <ul class="list">
+            <li class="list__unit">
+              Если ты хочешь сменить профессию в кротчайшие сроки и уже завтра
+              принимать своих первых клиентов.
+            </li>
+            <li class="list__unit">
+              Если ты уже работаешь и хочешь иметь дополнительный доход.
+            </li>
+            <li class="list__unit">
+              Если ты хочешь расшить список своих услуг.
+            </li>
+          </ul>
+        </div>
+        <hr class="courses__box--line" />
+        <div class="courses__right courses__box">
+          <h1 class="courses__title">Курсы для тебя если</h1>
+          <ul class="list">
+            <li class="list__unit">Хочешь освоить профессию;</li>
+            <li class="list__unit">Хочешь быть востребованным мастером;</li>
+            <li class="list__unit">
+              Хочешь пройти эффективное обучение, которое подготовит тебя на все
+              100%;
+            </li>
+            <li class="list__unit">
+              Хочешь делать красивые работы, которые будут приводить клиентов в
+              восторг;
+            </li>
+            <li class="list__unit">
+              Хочешь быть лучшей в своем городе и не иметь конкурентов.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="courses__page courses">
+      <div class="container">
+        <div>
+          <h2 class="courses__title">Наши курсы</h2>
+          <hr class="courses__line" />
+        </div>
+        <ul class="courses__wrapp">
+          <li class="courses__wrapp--box box box__manicur">
+            <h3 class="box__title">Маникюр</h3>
+            <a class="box__link linkbutton" href="./sugaring.html"
+              >Узнать больше</a
+            >
+          </li>
+          <li class="courses__wrapp--box box box__browmaster">
+            <h3 class="box__title">Brow master</h3>
+            <a class="box__link linkbutton" href="./sugaring.html"
+              >Узнать больше</a
+            >
+          </li>
+          <li class="courses__wrapp--box box box__lamin">
+            <h3 class="box__title">Ламинирование ресниц</h3>
+            <a class="box__link linkbutton" href="./sugaring.html"
+              >Узнать больше</a
+            >
+          </li>
+          <li class="courses__wrapp--box box box__shugaring">
+            <h3 class="box__title">Шугаринг</h3>
+            <a class="box__link linkbutton" href="./sugaring.html"
+              >Узнать больше</a
+            >
+          </li>
+          <li class="courses__wrapp--box box box__lamin">
+            <h3 class="box__title">Резерв</h3>
+            <a class="box__link linkbutton" href="./sugaring.html"
+              >Узнать больше</a
+            >
+          </li>
+          <li class="courses__wrapp--box box box__browmaster">
+            <h3 class="box__title">Резерв</h3>
+            <a class="box__link linkbutton" href="./sugaring.html"
+              >Узнать больше</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <nav class="nav">
+        <li class="nav__box">
+          <a href="tel:+7 123 456-78-90" class="nav__box__link"
+            >+7 123 456-78-90</a
+          >
+          <a href="tel:+7 123 456-78-90"
+            ><img src="../img/phone-solid.svg" alt=""
+          /></a>
+        </li>
+        <li class="nav__box nav__content">-</li>
+        <li class="nav__box">
+          <a href="#" class="nav__box__link">telegarm</a>
+          <a href="#"><img src="../img/telegram-brands.svg" alt="" /></a>
+        </li>
+        <li class="nav__box nav__content">-</li>
+        <li class="nav__box">
+          <a href="#" class="nav__box__link">Email</a>
+          <a href="#"><img src="../img/at-solid.svg" alt="" /> </a>
+        </li>
+        <li class="nav__box nav__content">-</li>
+        <li class="nav__box">
+          <a href="#" class="nav__box__link">Instagram</a>
+          <a href="#"><img src="../img/instagram-brands.svg" alt="" /></a>
+        </li>
+      </nav>
+    </footer>
+    <script src="../js/scrypt.js"></script>
+  </body>
+</html>
