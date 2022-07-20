@@ -3,6 +3,13 @@ font-family: 'Roboto', sans-serif; */
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
 }
 .container {
   max-width: 1200px;
@@ -12,7 +19,8 @@ font-family: 'Roboto', sans-serif; */
 header {
   padding: 5px 0;
   background-color: #f1ebdd;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 1000000;
 }

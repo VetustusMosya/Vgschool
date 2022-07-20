@@ -18,33 +18,49 @@
 <body>
     <header>
         <div class="container">
-            <div class="header__logo">
-                <a href="../index.html"><img src="../img/logo/1лого.png" alt="VG School"></a>
-            </div>
-            <div class="header__links">
-                <nav>
+          <div class="header__logo">
+            <a href="#main"><img src="../img/logo/1лого.png" alt="VG School" /></a>
+          </div>
+          <div class="header__links">
+            <nav>
+              <ul>
+                <li><a href="#main">Главная</a></li>
+                <li class="dropdown">
+                  <a href="../pages/courses.html">Курсы <img src="../img/angle-down-solid.svg" alt=""/></a>
+                  <div class="dropdown-content">
                     <ul>
-                        <li><a href="../index.html">Главная</a></li>
-                        <li class="dropdown">
-                            <a href="./courses.html">Курсы <img src="../img/angle-down-solid.svg" alt=""></a>
-                            <div class="dropdown-content">
-                                <ul>
-                                    <li><a href="../pages/sugaring.html">Маникюр</a></li>
-                                    <li><a href="../pages/sugaring.html">Browmaster</a></li>
-                                    <li><a href="../pages/sugaring.html">Ламинирование</a></li>
-                                    <li><a href="../pages/sugaring.html">Шугаринг</a></li>
-                                    <li><a href="../pages/sugaring.html">Резерв</a></li>
-                                    <li><a href="../pages/sugaring.html">Резерв</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="./about.html">О школе</a></li>
-                        <li><a href="./contact.html">Контакты</a></li>
+                      <li><a href="../pages/sugaring.html">Маникюр</a></li>
+                      <li><a href="../pages/sugaring.html">Browmaster</a></li>
+                      <li><a href="../pages/sugaring.html">Ламинирование</a></li>
+                      <li><a href="../pages/sugaring.html">Шугаринг</a></li>
+                      <li><a href="../pages/sugaring.html">Резерв</a></li>
+                      <li><a href="../pages/sugaring.html">Резерв</a></li>
                     </ul>
+                  </div>
+                </li>
+                <li><a href="../pages/about.html">О школе</a></li>
+                <li><a href="../pages/contact.html">Контакты</a></li>
+              </ul>
+              <div id="menu" class="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                  <nav>
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="../pages/courses.html">Курсы</a></li>
+                    <li><a href="../pages/about.html">О школе</a></li>
+                    <li><a href="../pages/contact.html">Контакты</a></li>
+                  </т>
                 </nav>
-            </div>
+              </div>
+              <div class="menu-bg" id="menu-bg"></div>
+            </nav>
+          </div>
         </div>
-    </header>
+      </header>
     <section id="tariff">
         <div class="tariff__content container">
             <img class="tariff__img tariff__block" src="../img/page__shugaring.jpg"></img>
