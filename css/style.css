@@ -606,8 +606,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   font-weight: 600;
   margin: 10px 0;
   max-width: 700px;
-  width: 100%;
-  display: flex;
+  width: 90%;
   align-items: center;
 }
 #courses .courses__title {
@@ -751,6 +750,23 @@ footer .nav__box:hover {
   }
   footer .nav__content {
     display: none;
+  }
+  #courses .courses__box .list .list__unit {
+    font-weight: 400;
+  }
+  .about__page .results__list .list__unit {
+    font-weight: 400;
+  }
+  .about__page .about .about__box h3 {
+    font-weight: 400;
+  }
+  .about__page .sertificat__info--list li {
+    font-weight: 400;
+  }
+  .about__page .sertificat__info .sertificat__info--attention {
+    font-weight: 400;
+    color: red;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 1024.1px) {
