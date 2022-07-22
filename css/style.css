@@ -301,7 +301,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   flex-direction: column;
   justify-content: center;
   padding: 0 50px 0;
-  max-width: 600px;
+  max-width: 1000px;
   width: 100%;
 }
 #tariff .tariff__info p {
@@ -330,7 +330,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
 }
 #tariff .tariff__text {
   text-align: center;
-  padding: 0 25%;
+  padding: 0 10%;
   margin-bottom: 70px;
 }
 #tariff .tariff__text p {
@@ -365,6 +365,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
 }
 /* КнопОчка  */
 #tariff .tariff__content .tariff__button {
+  cursor: pointer;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -394,8 +395,8 @@ header .container .header__links .dropdown:hover .dropdown-content {
   padding: 5px;
 }
 #tariff .tariff__content .tariff__button .button__link img {
-  width: 40px;
-  height: auto;
+  /* width: auto; */
+  height: 40px;
 }
 /* Контакты */
 #map iframe {
@@ -894,6 +895,17 @@ footer .nav__box:hover {
   }
   #contact form input:nth-child(1) {
     margin-bottom: 20px;
+  }
+  .courses .courses__wrapp .courses__wrapp--box .box__link {
+    position: relative;
+    margin-top: 20px;
+    opacity: 1;
+    padding: 5px 5px;
+    background: rgb(97, 96, 87, 0.4);
+    border: 2px #f1ebdd solid;
+  }
+  .courses .courses__wrapp .courses__wrapp--box:hover .box__title {
+    display: block;
   }
 }
 @media screen and (max-width: 750.1px) {
