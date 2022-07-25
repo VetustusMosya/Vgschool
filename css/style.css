@@ -178,7 +178,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   flex-direction: column;
   width: 100%;
   max-width: 380px;
-  min-height: 501px;
+  height: 501px;
   margin: 20px 0;
   transition: background-size 1s ease;
 }
@@ -194,11 +194,19 @@ header .container .header__links .dropdown:hover .dropdown-content {
   background-size: 100%;
 }
 .courses .courses__wrapp .box__lamin {
-  background: url(../img/laminirovanie.jpg) no-repeat center;
+  background: url(../img/eyes.jpg) no-repeat center;
   background-size: 100%;
 }
 .courses .courses__wrapp .box__shugaring {
   background: url(../img/shugaring.jpg) no-repeat center;
+  background-size: 100%;
+}
+.courses .courses__wrapp .box__honey {
+  background: url(../img/honey.jpg) no-repeat center;
+  background-size: 100%;
+}
+.courses .courses__wrapp .box__reserv {
+  background: url(../img/manicurv2.jpg) no-repeat center;
   background-size: 100%;
 }
 .courses .courses__wrapp .courses__wrapp--box .box__title {
